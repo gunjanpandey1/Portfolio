@@ -1,0 +1,23 @@
+#about {
+  padding: 2rem;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.profile-photo {
+  width: 200px; /* Adjust size as needed */
+  height: auto; /* Ensures aspect ratio is maintained */
+  border-radius: 50%; /* Makes the image round, adjust as needed */
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  border: 3px solid #fff; /* Example border styling */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow effect */
+}
+
