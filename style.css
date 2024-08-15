@@ -54,7 +54,7 @@ body {
 }
 
 .parallax-2 {
-    background: url('/home/gunjan/portfolio1/pngtree-nature-wallpapers-image_2683049.jpg') no-repeat;
+    background: url('pngtree-nature-wallpapers-image_2683049.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
