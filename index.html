@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+    <section>
+        <section class="parallax-1" id="parallax-1">
+            <div class="parallax-inner">
+                <h1>Welcome To My Portfolio</h1>
+                <p>Gunjan Pandey B.Tech Computer Science Student  at Graphic Era Hill University Dehradun.</p>
+            </div>
+        </section>
+        <section class="parallax-2">
+            <div class="parallax-inner">
+            <div class="inner">
+            <h2> Brief Summary </h2>
+            <p> 
+		👋  I'm Gunjan Pandey, currently in my fourth year studying Computer Science at Graphic Era Hill University. Passionate about technology and innovation, I'm actively seeking opportunities to apply my skills and make a meaningful impact.<br></br>
+
+		🚀 Let's connect and explore how we can collaborate!</p>
+            </div>
+            <a href='https://www.linkedin.com/in/gunjan-pandey-479b16228'>LinkedIn</a>
+            <a href='https://github.com/gunjanpandey1'>GitHub</a>
+            <a href='https://leetcode.com/u/gunjan_pandey1/'>LeetCode</a>
+            </div>
+        </section>
+    </section>
+    <script>
+    	let para = document.getElementById("parallax-1");
+    	
+    	window.addEventListener('scroll', function(){
+    		let value = window.scrollY;
+    		para.style.top = value * 2.5 + 'px';
+    	})
+    
+    </script>
+
+</body>
+
+</html>

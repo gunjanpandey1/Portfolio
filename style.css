@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; /* Full height of the viewport */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange links vertically */
+    justify-content: flex-start; /* Align links to the top */
+    background-color: #BFBFBF; /* Background color of nav */
+    padding: 20px; /* Padding around the nav */
+    z-index: 2; /* Higher z-index than bottom div */
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px; /* Space between links */
+    padding: 5px 10px; /* Padding around the link */
+    margin-top:10px;
+}
+nav a.active {
+    background-color: black;
+    color: white;
+}
+body {
+    background: #f2f2f2;
+    padding-left:155px;
+}
+
+.parallax-inner h1 {
+    font-size: 40px;
+    margin-left: 350px;
+    text-align: center;
+    color: #fffff7;
+    text-shadow: (2px,2px,2px #BFBFBF);
+    padding-bottom: 5px; /* Add padding below the heading */
+    display: inline-block; /* Display the heading as an inline block */
+    width: fit-content; /* Fit the width of the heading to the content */
+    border-bottom: 5px solid #800000;
+}
+
+.parallax-1 {
+    background: url('wavepattern.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-2 {
+    background: url('/home/gunjan/portfolio1/pngtree-nature-wallpapers-image_2683049.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    transform: translateY(0); /* Initial position */
+    transition: transform 0.5s ease; /* Add transition effect */
+}
+.parallax-inner {
+    padding: 10% 0;
+}
+
+
+.parallax-inner p {
+    font-size: 20px;
+    color: #fffff7;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 50px 40px;
+    text-align: center;
+    font-family: Times New Roman, Serif;
+}
+.inner{
+    margin-left: 250px;
+    height:500px;
+    width:650px;
+    background: url('/home/gunjan/portfolio1/images.jpeg') no-repeat;
+    border-radius: 25px;
+}
+
+.inner h2{
+    margin:0;
+    text-align:center;
+    margin-bottom:20px;
+    font-size: 30px;
+    font-family: Garamond, serif;
+}
+.inner p{
+    color:#000;
+    font-size:15px;
+    font-family: Lucida Console, monospace;
+}
+.parallax-inner a{
+    margin-left:240px;
+    font-size:30px;
+    color:#fff;
+    font-size:15px;
+    font-family: Lucida Console, monospace;
+    background: maroon;
+    text-decoration: none;
+    padding: 5px 10px; 
+    
+}
+footer{
+    text-align:center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px; 
+}
+.container {
+    padding: 10% 0; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+.content {
+    display: flex;
+}
+.container h3{
+    padding-right:0;
+    color: #000;
+    font-size: 60px;
+    margin-left: 390px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: (2px,2px,2px #BFBFBF);
+    padding-bottom: 5px; /* Add padding below the heading */
+    display: inline-block; /* Display the heading as an inline block */
+    width: fit-content; /* Fit the width of the heading to the content */
+    border-bottom: 5px solid #800000;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight:500;
+}
+.content {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+img {
+    max-width: 300px; /* Limit the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; 
+}
+.inner-container{
+    text-align: center;
+    padding: 5% 0;
+    display: flex;
+}
+.inner-container div{
+    margin-left:50px;
+    margin-bottom:20px;
+    height: 400px;
+    width: 300px;
+    border: 3px solid #B9732F;
+    border-radius: 25px;
+}
+.content1 {
+    text-align: center;
+    padding:0;
+}
+form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    border: 2px solid black;
+    width: 400px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html" class="active">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h3>Contact Me</h3>
+        <div class="content1">
+            <p>If you come across my profile, please feel free to share your thoughts about it.<br>
+            You can contact me for any work opportunities, as I'm open for work.</p>
+
+            <form action="save_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                
+                <label for="message">Drop your message:</label><br><br>
+                <textarea name="message" id="message" rows="5" cols="30" placeholder="Enter your message here..." required></textarea><br><br>
+                
+                <button type="submit" id="sub">Submit</button>
+            </form>
+        </div>
+
+        <div class="content1">
+            <p>Email me at: <a href="mailto:pandeygunjan197@gmail.com">pandeygunjan197@gmail.com</a></p>
+        </div>
+    </section>
+</body>
+</html>
