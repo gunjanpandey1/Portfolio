@@ -137,32 +137,6 @@ footer a{
     font-family: DejaVu Sans Mono, monospace;
     font-weight:500;
 }
-.about-header h3{
-    padding-right:0;
-    color: #000;
-    font-size: 60px;
-    margin-left: 200px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-shadow: (2px,2px,2px #BFBFBF);
-    padding-bottom: 5px; /* Add padding below the heading */
-    display: inline-block; /* Display the heading as an inline block */
-    width: fit-content; /* Fit the width of the heading to the content */
-    border-bottom: 5px solid #800000;
-    font-family: DejaVu Sans Mono, monospace;
-    font-weight:500;
-}
-
-.about-header {
-	display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.about-header video {
-	max-width: 150px; /* Adjust the size of the video */
-	margin-right: 200px;
-}
 .content {
     margin-left: 100px;
     margin-right: 50px;
